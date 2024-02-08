@@ -1,0 +1,43 @@
+.container {
+    /* display: flex; */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* Header Section Starts here */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    height: 60px;
+    align-items: center;
+}
+
+.company_logo {
+    margin-left: 30px;
+    color: #F9FAF8;
+    font-size: 24px;    
+}
+
+.right-link {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.right-link a {
+    text-decoration-line: none;
+    color: #E5E7EB;
+}
+
+.header-right {
+    margin-right: 30px;
+}
+
