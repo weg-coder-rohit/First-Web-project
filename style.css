@@ -137,6 +137,8 @@ p {
 
 /* Main section 2 ends here */
 
+/* Main section 3  */
+
 .main-3 {
     height: 350px;
     background-color: #E5E7EB;
@@ -162,3 +164,61 @@ p {
     font-weight: 900;
     font-size: 18px;
 }
+
+/* Main section 3 ends */
+
+/* Main section 4  */
+
+.main-4 {
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    height: 180px;
+}
+
+.main-4-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-4-wrapper {
+    padding: 100px;
+    background-color: #F9FAF8;
+}
+
+.main-4-2 button {
+    background-color: #3882F6;
+    border: 3px solid #F9FAF8;
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: #E5E7EB;
+}
+
+.main-4-text1 {
+    font-size: 36px;
+    color: #E5E7EB;
+    font-weight: 500;
+}
+
+.main-4-text2 {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+/* Main section 4 ends */
+
+/* Footer */
+
+.footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1F2937;
+    font-size: 26px;
+    color: #E5E7EB;
+  }
